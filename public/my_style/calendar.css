@@ -1,0 +1,25 @@
+.calendar{
+	font-family: arial;
+}
+table.calendar{
+	margin : auto;
+	border-collapse: collapse;
+}
+table.calendar th{
+	text-align: center;
+}
+.calendar .days td{
+	width : 10em;
+	height : 100px;
+	padding : 4px;
+	border : 1px solid #999;
+	vertical-align : top;
+	background-color : white;
+}
+.calendar .days td:hover{
+	background-color : #6f7a7a;
+	color : white;
+}
+.calendar .highlight{
+	font-weight: bold;
+}
